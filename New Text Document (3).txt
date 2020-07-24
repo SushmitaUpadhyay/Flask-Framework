@@ -1,0 +1,57 @@
+LECTURE 1
+COMMANDS IN COMMAND PROMPT ANACONDA
+
+1.pip install flask
+
+2.python
+import flask
+exit()
+
+
+3.mkdir Flaskblog
+cd FLaskblog
+
+4.write code in file
+set FLASK_APP= FLASKBLOG.py - set environment variable
+
+5.flask run
+Running on http://127.0.0.1:5000/ - returns ip of machine 5000 is port number
+or localhost:5000 as alias.
+paste this path on browser to see and let the code im command prompt running
+
+6. stop using ctrl+c
+
+7. change code: add html tags
+
+8. start debug mode to show change without stopping server
+set FLASK_DEBUG=1
+flask run
+
+now change code and rerun page
+
+9. above was running through environment variable set, without environment variable direct run in python use __main__
+
+change code in file , read about __main__
+
+to run, either use spyder run or in command prompt write
+python FLASKBLOG.py
+
+10. add another page, change code for about page by changing route
+about page
+
+11. next code change is for two routes handled by same function, hello is changed to home, old code is commented
+
+
+LECTURE 2
+TEMPLATES, PASS VARIABLES
+
+templates are created to add more complex html in routes without making it complicated
+
+1. create templates folder
+
+create two files home.html, about.html
+
+
+
+
+
